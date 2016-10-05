@@ -1,0 +1,138 @@
+html, body
+{
+	background-color: #F1F1F1;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI, "Helvetica", "Arial";
+	font-size: 14px;
+	left: 0;
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+
+#blogin
+{
+	background-color: rgba(255,255,255,0.6);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	visibility: hidden;
+	width: 100%;
+	z-index: 7;
+}
+
+.box
+{
+	color: #777;
+	font-size: 18px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+#dnt
+{
+	background: #FFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.13);
+	color: #AAA;
+	padding: 20px;
+	position: fixed;
+	text-align: center;
+	/*top: -100px;*/
+	top:0;
+	display: none;
+	width: 400px;
+	z-index: 9;
+}
+
+.fl
+{
+	float: left;
+}
+
+.fr
+{
+	float: right;
+}
+
+#formlogin
+{
+	background-color: #FFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.13);
+	height: 200px;
+	padding: 20px;
+	position: relative;
+	width: 100%
+}
+
+.input
+{
+	border: 1.5px solid #CCC;
+	font-size: 24px;
+	font-family: Segoe UI;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 3px;
+	text-decoration: none;
+	width: calc(100% - 6px);
+}
+
+.input:focus
+{
+	border-color:#5b9dd9;
+	box-shadow:0 0 2px rgba(30,140,190,.8);
+}
+
+.input:active
+{
+	border-color:#5b9dd9;
+	box-shadow:0 0 2px rgba(30,140,190,.8);
+}
+
+#login
+{
+	margin: 10% auto auto;
+	width: 300px;
+}
+
+#submitlogin
+{
+	color: #FFF;
+	background-color: #2EA2CC;
+	border: 1px solid #0074A2;
+	border-radius: 2px;
+	/*box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);*/
+	box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.6) inset, 1px 1px 2px rgba(0, 0, 0, 0.4);
+	height: 30px;
+	text-decoration: none;
+}
+
+#submitlogin:hover
+{
+	box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.text
+{
+	color: #AAA;
+	text-decoration: none;
+}
+
+a:link{
+	color: #AAA;
+	text-decoration: none;
+}
+a:visited{
+	color: #AAA;
+	text-decoration: none;
+}
+a:hover{
+	color: #0a96f8;
+	text-decoration: none;
+}
+a:active{
+	color: #0a6ff8;
+	text-decoration: none;
+}

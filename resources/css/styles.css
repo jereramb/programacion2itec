@@ -1,0 +1,292 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI, "Helvetica", "Arial";
+	font-size: 14px;
+	left: 0;
+	min-height: 600px;
+	min-width: 1000px;
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+
+#backAround
+{
+	background-color: rgba(255,255,255,0);
+	display: none;
+	height: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.buton-normal
+{
+	color: #FFF;
+	background-color: #2EA2CC;
+	border: 1px solid #0074A2;
+	border-radius: 2px;
+	box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.6) inset, 1px 1px 2px rgba(0, 0, 0, 0.4);
+	height: 30px;
+	text-decoration: none;
+}
+
+#canvas
+{
+	background-color: #FFF;
+	border-top: 2px solid #CCC;
+	height: calc(100% - 117px);
+	margin-top: 0px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.config
+{
+	background-image: url('../img/cog2.png');
+	background-position: 8px 6px;
+	background-repeat: no-repeat;
+	background-size: 28px 28px;
+	border-left: 1px solid #004178;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+.config:hover
+{
+	background-image: url('../img/cog3.png');
+	background-position: 8px 6px;
+	background-repeat: no-repeat;
+}
+
+.cuadro
+{
+	background-color: white;
+	box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+	margin-top: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: 600px; 
+}
+
+.datepicker
+{
+	border: 1px solid #DDD;
+	border-radius: 2px;
+	background: url('../jquery/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png') repeat-x scroll 50% 50% #F6F6F6;
+	height: 31px;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#datepickerb
+{
+	height: 33px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#datepickerb:hover
+{
+	background-color: #DDD;
+	background-image: none;
+}
+
+#dnt
+{
+	background: #FFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.13);
+	color: #AAA;
+	padding: 20px;
+	position: fixed;
+	text-align: center;
+	top:0;
+	display: none;
+	width: 400px;
+	z-index: 9;
+}
+
+#fecha
+{
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 7px;
+	width: 200px;
+	vertical-align: middle;
+}
+
+#fechaop
+{
+	width: 190px;
+}
+
+.fl
+{
+	float: left;
+}
+
+.fr
+{
+	float: right;
+}
+
+#header
+{
+	background-color: #005DAB;
+	height: 40px;
+	left: 0;
+	margin: 0;
+	min-width: 600px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+#hum
+{
+	display: inline-block;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+#idcanvas
+{
+	margin: 0;
+}
+
+.incuadro
+{
+	height: calc(100% - 60px);
+	padding: 30px;
+	width: calc(100% - 60px);
+}
+
+.inputPref
+{
+	margin-top: 100px;
+	margin-right: -10px;
+}
+
+#logo
+{
+	background-image: url('../img/layers_1.png');
+	background-position: 7px 4px;
+	background-repeat: no-repeat;
+	color: #FFF;
+	font-size: 24px;
+	height: 40px;
+	margin-left: 10px;
+	padding-right: 5px;
+	text-align: right;
+	vertical-align: middle;
+	width: 215px;
+}
+
+#logout
+{
+	background-image: url('../img/logou2t.png');
+	background-position: 7px 7px;
+	background-repeat: no-repeat;
+	border-left: 1px solid #004178;
+	float: left;
+	height: 40px;
+	margin-left: 5px;
+	width: 40px;
+	vertical-align: middle;
+}
+
+#logout:hover
+{
+	background-image: url('../img/logout3.png');
+}
+
+.mdle
+{
+	vertical-align: middle;
+}
+
+#nameuser
+{
+	float: left;
+	font-size: 20px;
+	margin-top: 4px;
+	margin-left: 3px;
+	margin-right: 7px;
+}
+
+#nav_user
+{
+	color: #FFF;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.optionCont
+{
+	display: inline-block;
+}
+
+.optionDraw
+{
+	font-family: Segoe UI, Helvetica, Arial;
+	font-size: 16px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+#pref
+{
+	background-color: #EEE;
+	height: 50px;
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
+}
+
+#temp
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.text
+{
+	font-family: Segoe UI, Helvetica, Arial;
+	font-size: 16px; 
+}
+
+.timepicker
+{
+	display: none;
+	margin-left: 15px;
+	padding-top: 1px;
+	vertical-align: middle;
+}
+
+#viewInfo{
+	border-left: 1px solid #CCC;
+	display: none;
+	overflow: hidden;
+}
+
+.viewInfo
+{
+	font-family: Segoe UI, Helvetica, Arial;
+	font-size: 14px;
+	margin-right: 20px;
+	margin-top: -2px;
+	padding: 0;
+	padding-left: 5px;
+}
